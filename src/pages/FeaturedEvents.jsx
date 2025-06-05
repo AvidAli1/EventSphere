@@ -45,7 +45,7 @@ export default function FeaturedEvents() {
             {/* Left Column: Content */}
             <div className="text-center lg:text-left order-2 lg:order-1 lg:pr-8 xl:pr-12">
               {/* Sparkle Animation - Desktop Only */}
-              <div className="hidden lg:flex items-center mb-6 xl:mb-8 ml-28">
+              <div className="hidden lg:flex items-center mb-6 xl:mb-8 ml-40">
                 <div className="relative mb-4">
                   {/* Sparkle constellation */}
                   <div className="flex justify-start items-center mb-4 relative">
@@ -86,7 +86,7 @@ export default function FeaturedEvents() {
                 </div>
               </div>
 
-              <div className="lg:pl-4 xl:pl-0 -ml-0 md:-ml-12">
+              <div className="lg:pl-4 xl:pl-0">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent leading-tight">
                   Discover Events Near You
                 </h1>
@@ -96,7 +96,7 @@ export default function FeaturedEvents() {
               </div>
 
               {/* Search Bar */}
-              <div className="max-w-xl lg:-mx-12 relative mb-8 sm:mb-12 lg:mb-14 px-2 sm:px-0">
+              <div className="max-w-xl lg:max-w-2xl xl:max-w-xl relative mb-8 sm:mb-12 lg:mb-14 px-2 sm:px-0">
                 <div className="relative flex items-center">
                   <div className="absolute left-3 sm:left-4 z-10">
                     <img
