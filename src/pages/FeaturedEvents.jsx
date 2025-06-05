@@ -127,7 +127,8 @@ export default function FeaturedEvents() {
                   style={{
                     width: '100%',
                     height: '100%',
-                    objectFit: 'cover'
+                    objectFit: 'cover',
+                    transform: 'scale(1.05)'
                   }}
                 />
               </div>
